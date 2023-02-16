@@ -647,9 +647,9 @@ function Live() {
               }}
             >
               {isMic ? (
-                <S.MicOff src={MicOff} alt="MicOff" />
+                <S.MicOff src={MicOn} alt="MicOn" />
               ) : (
-                <S.MicOn src={MicOn} alt="MicOn" />
+                <S.MicOn src={MicOff} alt="MicOff" />
               )}
             </div>
             <div
@@ -659,9 +659,9 @@ function Live() {
               }}
             >
               {isCam ? (
-                <S.CamOff src={CamOff} alt="CamOff" />
+                <S.CamOff src={CamOn} alt="CamOn" />
               ) : (
-                <S.CamOn src={CamOn} alt="CamOn" />
+                <S.CamOn src={CamOff} alt="CamOff" />
               )}
             </div>
             <div
@@ -671,9 +671,9 @@ function Live() {
               }}
             >
               {isVolume ? (
-                <S.VolumeOff src={VolumeOff} alt="VolumeOff" />
+                <S.VolumeOff src={VolumeOn} alt="VolumeOn" />
               ) : (
-                <S.VolumeOn src={VolumeOn} alt="VolumeOn" />
+                <S.VolumeOn src={VolumeOff} alt="VolumeOff" />
               )}
             </div>
           </S.LeaveBox>
